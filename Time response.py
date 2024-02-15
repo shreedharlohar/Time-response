@@ -1,20 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[7]:
-
-
-#Shreedhar Vijay Lohar
-#MIS = 712394003
-#Robotics Assignment - Stability of System
 import math
 import numpy as np
 import pandas as pd
 import sys
 
-Characteristic Equation of Second Order System is p S^2 + q S + r = 0
-# In[28]:
-
+#Characteristic Equation of Second Order System is p S^2 + q S + r = 0
 
 def stability(p,q,r):
     if (p==0 and q==0 and r==0):
@@ -52,31 +43,30 @@ def stability(p,q,r):
         print('System is undamped.')
 
 
-# In[33]:
+# Test your program 
 
 
 stability(2,6,5)
 
 
-# In[29]:
+
 
 
 stability(3.26,17.5,44.2)
 
 
-# In[30]:
 
 
 stability(0.01,8,9)
 
 
-# In[31]:
+
 
 
 stability(2,8,8)
 
 
-# In[32]:
+
 
 
 stability(11,0,3)
